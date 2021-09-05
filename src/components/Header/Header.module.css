@@ -1,0 +1,22 @@
+.header {
+    height: 70px;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffff;
+}
+
+.nav {
+    width: 50%;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.li {
+    padding-right: 10px;
+
+}
