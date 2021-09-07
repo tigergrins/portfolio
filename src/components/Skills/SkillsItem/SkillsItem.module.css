@@ -1,0 +1,24 @@
+.body {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.icon {
+
+}
+
+.text {
+
+}
+
+.text h3{
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}

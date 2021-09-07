@@ -1,0 +1,17 @@
+.body {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.table {}
+
+.header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.tableBody{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,29 @@
+.body {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.image {
+    margin-bottom: 20px;
+}
+
+.image img{
+    width: 150px;
+    height: 150px;
+}
+
+.text {
+
+}
+
+.text h3{
+
+}
+
+.description {
+
+}
