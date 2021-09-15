@@ -1,20 +1,26 @@
 .body {
-    height: 400px;
+    min-height: 70vh;
+    background-color: #c3ffb6;
     display: flex;
-    justify-content: center;
-    padding: 20px 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.table {
-
+.container {
+    width: 80%;
+    height: 100%;
 }
 
-.header {
+.title {
     text-align: center;
-    padding-bottom: 20px;
+    background-color: rgba(165, 42, 42, 0.29);
 }
 
-.tableBody{
+.projects {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }

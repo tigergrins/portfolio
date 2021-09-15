@@ -4,16 +4,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px 40px;
+    padding: 20px 40px;;
 }
 
-.image {
-    margin-bottom: 20px;
-}
+.icon {
 
-.image img{
-    width: 150px;
-    height: 150px;
 }
 
 .text {
@@ -21,9 +16,9 @@
 }
 
 .text h3{
-
+    text-align: center;
 }
 
 .description {
-
+    text-align: center;
 }

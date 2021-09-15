@@ -1,24 +1,31 @@
 .body {
-    height: 200px;
+    min-height: 40vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    margin-bottom: 40px;
-}
-.container {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*justify-content: center;*/
 }
 
 .form {
+    min-width: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
-.tableBody{
-    display: flex;
-    justify-content: center;
+.form input {
+    width: 100%;
+    margin-bottom: 5px;
 }
+
+.form textarea {
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.button {
+    margin-top: 20px;
+}
+

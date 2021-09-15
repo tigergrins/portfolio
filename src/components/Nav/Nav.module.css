@@ -1,0 +1,19 @@
+.nav {
+    min-width: 400px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list a {
+    color: #F6F6F6;
+    text-decoration: none;
+}
+
+.list li{
+    list-style: none;
+}
+
+

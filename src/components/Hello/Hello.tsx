@@ -5,13 +5,15 @@ import photo from '../../assets/images/butler.png'
 export function Hello(props: any) {
     return (
         <div className={styles.body}>
-            <div className={styles.info}>
+            <div className={styles.container}>
                 <div className={styles.text}>
-                    <h2>Привет!</h2>
-                    <p>Меня зовут Данила Бокун.</p>
-                    <p>Я front-and разработчик.</p>
+                    <span>Hi</span>
+                    <p>I'm Danila Bokun</p>
+                    <p>Front-end developer</p>
                 </div>
-                <div className={styles.photo}><img src={photo} alt="photo"/></div>
+                <div className={styles.photo}>
+                    <img src={photo} alt="photo"/>
+                </div>
             </div>
         </div>
     )

@@ -1,20 +1,22 @@
 .body {
-    height: 350px;
-    display: flex;
-    justify-content: center;
-}
-
-.info {
-    width: 80%;
+    background-color: rgba(154, 222, 225, 0.52);
+    min-height: 80vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 40px 0;
-    padding: 40px 40px;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: azure;
 }
 
 .text {
-    margin-right: 50px;
 }
 
 .photo img{

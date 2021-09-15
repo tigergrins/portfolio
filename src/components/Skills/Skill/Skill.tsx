@@ -1,14 +1,19 @@
 import React from 'react'
-import styles from './SkillsItem.module.css'
+import styles from './Skill.module.css'
 import reactIcon from '../../../assets/images/react.png'
 
-export function SkillsItem(props: any) {
+type SkillPropsType = {
+    title: string
+    description: string
+}
+
+export function Skill(props: SkillPropsType) {
     return (
         <div className={styles.body}>
             <div className={styles.icon}><img src={reactIcon} alt="icon"/></div>
             <div className={styles.text}>
-                <h3>React</h3>
-                <div className={styles.description}>Подробное описание навыка.</div>
+                <h3>{props.title}</h3>
+                <span className={styles.description}>{props.description}</span>
             </div>
         </div>
     )

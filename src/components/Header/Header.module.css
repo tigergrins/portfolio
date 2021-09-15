@@ -1,22 +1,8 @@
 .header {
-    height: 70px;
+    height: 80px;
     background-color: #023048;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     color: #ffff;
-}
-
-.nav {
-    width: 50%;
-}
-
-.list {
-    display: flex;
-    justify-content: space-around;
-}
-
-.li {
-    padding-right: 10px;
-
 }
